@@ -1,4 +1,4 @@
-<img src="../src/app/icon.png" id="start" align="right" alt="Project logo" width="50" >
+<img src="./assets/icon.png" id="start" align="right" alt="Project logo" width="50" >
 
 # Travels landing.
 
