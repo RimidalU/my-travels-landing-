@@ -110,9 +110,3 @@ Created by [@RimidalU](https://www.linkedin.com/in/uladzimir-stankevich/) - feel
 <!-- MARKDOWN LINKS & IMAGES -->
 
 <!-- [tutorial]: ./assets/demo.webp -->
-
-Date Structure:
-
--   collection of data values
--   relationship among them
--   function/operations that can be applied on
