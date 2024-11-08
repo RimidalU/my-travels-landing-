@@ -1,4 +1,4 @@
-<img src="./assets/icon.png" id="start" align="right" alt="Project logo" width="50" >
+<img src="./assets//icon.png" id="start" align="right" alt="Project logo" width="50" >
 
 # Travels landing.
 
@@ -28,14 +28,13 @@
 [License](#license) •
 [Contact](#contact)
 
-<img src="./assets/home.png" width="600" />
-<img src="./assets/contacts.png" width="600" />
-<img src="./assets/video.png" width="600" />
-<img src="./assets/developer.png" width="600" />
+<img src="./assets/home.png" width="400" /> <img src="./assets/contacts.png" width="400" />
+<img src="./assets/video.png" width="400" /> <img src="./assets/developer.png" width="400" />
+<img src="./assets/homeMobile.png" width="200" /> <img src="./assets/videoMobile.png" width="200" /> <img src="./assets/contactsMobile.png" width="200" /> <img src="./assets/placeholderMobile.png" width="200" />
 
 ## Description
 
-Single page application in Next.js. 
+Single page application in Next.js.
 
 The site contains information about my travels, links to videos about these trips and technical reports...
 
@@ -43,18 +42,19 @@ Stack: Next, TypeScript, TailwindCSS, Emailjs, Three.js.
 
 ## Project setup
 
-- Clone this repo to your desktop and run `npm install` to install all the dependencies.
-- Once the dependencies are installed, you can run `npm dev` to start the application.
-- Enjoy.
+-   Clone this repo to your desktop and run `npm install` to install all the dependencies.
+-   Once the dependencies are installed, you can run `npm dev` to start the application.
+-   Enjoy.
 
 ## Features
 
-- `react-hook-form` library to work with email form;
-- `emailjs` library to send email from browser;
-- Web component widget to display codersrank stats;
-- Lucid icon library for displaying application icons;
-- Sonner toast component;
-- ...
+-   `react-hook-form` library to work with email form;
+-   `emailjs` library to send email from browser;
+-   Web component widget to display codersrank stats;
+-   Lucid icon library for displaying application icons;
+-   Sonner toast component;
+-   saving user selection to LocalStorage;
+-   background sound with the ability to turn it off;
 
 ## How To Use
 
@@ -70,31 +70,32 @@ Project is: _in progress_
 
 To do:
 
-- [ ] Add content.
-- [ ] Add i18next.
-- [ ] Add background music.
-- [ ] ...
+-   [ ] Add content.
+-   [ ] Add i18next.
+-   [x] Add background music.
+-   [ ] ...
 
 Improvement:
 
-- [ ] ...
+-   [ ] ...
 
 ### Credit the Creator:
 
-- "Wild Nature Asset Kit" (https://skfb.ly/on9pF) by Tom Ahawk is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
-- "Camera" (https://skfb.ly/oDUJu) by Kyn is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
-- "HW #5 Details | typewriter" (https://skfb.ly/6XN8J) by Tatyana Volkova is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
-- "Old PC" (https://skfb.ly/6WPFW) by TAb13 is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
-- "Road Barrier" (https://skfb.ly/6WTBI) by TheMiniFrench is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
-- "Envelope Low Poly" (https://skfb.ly/oNVTQ) by Artbrakadabra is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+-   "Wild Nature Asset Kit" (https://skfb.ly/on9pF) by Tom Ahawk is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+-   "Camera" (https://skfb.ly/oDUJu) by Kyn is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+-   "HW #5 Details | typewriter" (https://skfb.ly/6XN8J) by Tatyana Volkova is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+-   "Old PC" (https://skfb.ly/6WPFW) by TAb13 is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+-   "Road Barrier" (https://skfb.ly/6WTBI) by TheMiniFrench is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+-   "Envelope Low Poly" (https://skfb.ly/oNVTQ) by Artbrakadabra is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+-   "The voices of birds in the forest" music by <a href="https://pixabay.com/users/sspsurvival-22364443/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=7715">Semen Surin</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=7715">Pixabay</a>
 
 ### Useful links:
 
-- Generate images: https://playground.com/;
-- glb(gtf and other) models: https://sketchfab.com/feed;
-- GLTF to JSX: https://github.com/pmndrs/gltfjsx or https://gltf.pmnd.rs/
-- threejs editor:  https://threejs.org/editor/
-- icons: https://lucide.dev/
+-   Generate images: https://playground.com/;
+-   glb(gtf and other) models: https://sketchfab.com/feed;
+-   GLTF to JSX: https://github.com/pmndrs/gltfjsx or https://gltf.pmnd.rs/
+-   threejs editor: https://threejs.org/editor/
+-   icons: https://lucide.dev/
 
 ## License
 
@@ -109,3 +110,9 @@ Created by [@RimidalU](https://www.linkedin.com/in/uladzimir-stankevich/) - feel
 <!-- MARKDOWN LINKS & IMAGES -->
 
 <!-- [tutorial]: ./assets/demo.webp -->
+
+Date Structure:
+
+-   collection of data values
+-   relationship among them
+-   function/operations that can be applied on
