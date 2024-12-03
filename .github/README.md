@@ -1,4 +1,4 @@
-<img src="./assets//icon.png" id="start" align="right" alt="Project logo" width="50" >
+<img src="../src/app/icon.png" id="start" align="right" alt="Project logo" width="50" >
 
 # Travels landing.
 
@@ -16,6 +16,16 @@
 ![CodersRank](https://img.shields.io/badge/CodersRank-67A4AC.svg?style=for-the-badge&logo=CodersRank&logoColor=white)
 ![webcomponents](https://img.shields.io/badge/webcomponents.org-29ABE2.svg?style=for-the-badge&logo=webcomponentsdotorg&logoColor=white)
 ![ReactHookForm](https://img.shields.io/badge/React%20Hook%20Form-EC5990.svg?style=for-the-badge&logo=React-Hook-Form&logoColor=white)
+![Markdown](https://img.shields.io/badge/Markdown-000000.svg?style=for-the-badge&logo=Markdown&logoColor=white)
+![Contentlayer2](https://img.shields.io/badge/-Contentlayer2-7C3AED?style=for-the-badge&&logoColor=white)
+![TailwindCSSTypography](https://img.shields.io/badge/tailwindcss%20typography-06B6D4.svg?style=for-the-badge&logo=Tailwind-CSS&logoColor=white)
+![ESLint](https://img.shields.io/badge/ESLint-4B32C3.svg?style=for-the-badge&logo=ESLint&logoColor=white)
+![i18next](https://img.shields.io/badge/i18next-26A69A.svg?style=for-the-badge&logo=i18next&logoColor=white)
+![Prettier](https://img.shields.io/badge/Prettier-F7B93E.svg?style=for-the-badge&logo=Prettier&logoColor=black)
+![commitlint](https://img.shields.io/badge/commitlint-000000.svg?style=for-the-badge&logo=commitlint&logoColor=white)
+![Jest](https://img.shields.io/badge/Jest-C21325.svg?style=for-the-badge&logo=Jest&logoColor=white)
+![Husky](https://img.shields.io/badge/-🐶_Husky-f6f6f7?style=for-the-badge&&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991.svg?style=for-the-badge&logo=OpenAI&logoColor=white)
 
 ---
 
@@ -46,8 +56,27 @@ Stack: Next, TypeScript, TailwindCSS, Emailjs, Three.js.
 -   Once the dependencies are installed, you can run `npm dev` to start the application.
 -   Enjoy.
 
+### Project structure
+
+```shell
+.
+├── .github                         # GitHub folder
+├── .husky                          # Husky configuration
+├── .vscode                         # VSCode configuration
+├── public                          # Public assets folder
+├── src
+│   ├── app                         # Next JS App (App Router)
+│   ├── components                  # React components
+│   ├── locales                     # Locales folder (i18n messages)
+│   ├── utils                       # Utilities folder
+│   └── validations                 # Validation schemas
+├── tailwind.config.js              # Tailwind CSS configuration
+└── tsconfig.json                   # TypeScript configuration
+```
+
 ## Features
 
+-   Deploying to Vercel;
 -   `react-hook-form` library to work with email form;
 -   `emailjs` library to send email from browser;
 -   Web component widget to display codersrank stats;
@@ -55,6 +84,12 @@ Stack: Next, TypeScript, TailwindCSS, Emailjs, Three.js.
 -   Sonner toast component;
 -   saving user selection to LocalStorage;
 -   background sound with the ability to turn it off;
+-   creating content in markdown;
+-   rendering content using the `markdown-to-jsx` library;
+-   i18n on server and client components;
+-   automatic machine translation with `i18nexus`;
+-   `husky` and hooks (lint in *pre-commit*, tests in *pre-push*, tips on commit content from openai in *post-push*, check commit message);
+-   `jest` tests; 
 
 ## How To Use
 
@@ -71,12 +106,14 @@ Project is: _in progress_
 To do:
 
 -   [ ] Add content.
--   [ ] Add i18next.
+-   [ ] Add i18next.https://github.com/RimidalU/book-swap
 -   [x] Add background music.
+-   [ ] Add project structure to readme file
 -   [ ] ...
 
 Improvement:
 
+-   [ ] change select tag layout
 -   [ ] ...
 
 ### Credit the Creator:
@@ -87,6 +124,7 @@ Improvement:
 -   "Old PC" (https://skfb.ly/6WPFW) by TAb13 is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
 -   "Road Barrier" (https://skfb.ly/6WTBI) by TheMiniFrench is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
 -   "Envelope Low Poly" (https://skfb.ly/oNVTQ) by Artbrakadabra is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+-   "Ink and Quill" (https://skfb.ly/6TL9T) by Arthur J is licensed under CC Attribution-NonCommercial-NoDerivs (http://creativecommons.org/licenses/by-nc-nd/4.0/).
 -   "The voices of birds in the forest" music by <a href="https://pixabay.com/users/sspsurvival-22364443/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=7715">Semen Surin</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=7715">Pixabay</a>
 
 ### Useful links:
@@ -96,6 +134,7 @@ Improvement:
 -   GLTF to JSX: https://github.com/pmndrs/gltfjsx or https://gltf.pmnd.rs/
 -   threejs editor: https://threejs.org/editor/
 -   icons: https://lucide.dev/
+-   Automatic Machine Translation i18n: https://i18nexus.com/
 
 ## License
 
