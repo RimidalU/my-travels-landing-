@@ -1,10 +1,10 @@
-<img src="./assets/icon.png" id="start" align="right" alt="Project logo" width="50" >
+<img src="../src/app/icon.png" id="start" align="right" alt="Project logo" width="50" >
 
 # Travels landing.
 
 > The site contains information about my travels, links to videos about these trips and technical reports.
 
-[![Link to Yome_Network](https://img.shields.io/badge/Visit_My_Travels_Landing-Click_Here-black?style=plastic&logo=link&logoColor=black&labelColor=ffff66&color=4ade80k&link=https://my-travels-landing.vercel.app/)](https://my-travels-landing.vercel.app/)
+[![Link to My Travels Lending](https://img.shields.io/badge/Visit_My_Travels_Landing-Click_Here-black?style=plastic&logo=link&logoColor=black&labelColor=ffff66&color=4ade80k&link=https://my-travels-landing.vercel.app/)](https://my-travels-landing.vercel.app/)
 
 ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB.svg?style=for-the-badge&logo=React&logoColor=black)
@@ -106,7 +106,7 @@ Project is: _in progress_
 To do:
 
 -   [ ] Add content.
--   [ ] Add i18next.https://github.com/RimidalU/book-swap
+-   [ ] Add i18next.
 -   [x] Add background music.
 -   [ ] Add project structure to readme file
 -   [ ] ...
@@ -145,3 +145,7 @@ This project is open source and available under the [BSD 3-Clause](../LICENSE.md
 Created by [@RimidalU](https://www.linkedin.com/in/uladzimir-stankevich/) - feel free to contact me!
 
 <p align="right"><a href="#start"><img width="45rem" src="./assets/pageUp.svg"></a></p>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+
+<!-- [tutorial]: ./assets/demo.webp -->
